@@ -1,0 +1,26 @@
+<html>
+<body>
+
+
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" autofocus><br><br>
+  </form>
+
+
+  <script> 
+  var switch=true;
+myfunction(){
+    if(document.getElementById('die1').src=="blank.png"){
+    document.getElementById('die1').src='die6.png';
+      document.getElementById('die2').src='blank.png';
+    }
+    else{
+        document.getElementById('die2').src='die6.png';
+      document.getElementById('die1').src='blank.png';
+    }
+
+}
+  </script>
+</body>
+</html>
